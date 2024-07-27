@@ -3321,6 +3321,11 @@ p {
   transition: all 0.13s ease-in;
 }
 
+p.text-block-5.company {
+  font-size: 36px;
+  font-weight: bold;
+}
+
 pre {
   background: #edeff5;
   padding: 20px;
