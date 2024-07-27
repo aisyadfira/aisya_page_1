@@ -3294,16 +3294,13 @@ p {
   border-top-right-radius: 23px 130px;
   border-bottom-left-radius: 110px 19px;
   border-bottom-right-radius: 120px 24px;
-  border-image-slice: 170;
+  border-image-slice: 150;
   border-image-source: url(https://uploads-ssl.webflow.com/5f43c67205356439afd5447b/66a4b6e2e537143874da0b00_EXP1.svg);
   display: block;
   border-width: 4rem;
   border-style: solid;
   position: relative;
-  padding: 40px 60px;
-  max-width: 800px;
-  width: 70%;
-  margin: 100px auto 0;
+   margin: 100px auto 0;
   font-size: 17px;
   line-height: 28px;
   transform: rotate(-1deg);
@@ -3311,12 +3308,12 @@ p {
   transition: all 0.13s ease-in;
 }
 
-.container:hover {
+.container-job:hover {
   transform: translateY(-10px) rotate(1deg);
   box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
 }
 
-.container:hover .border {
+.container-job:hover .border {
   transform: translateY(4px) rotate(-5deg);
 }
 
@@ -3327,6 +3324,8 @@ p {
 pre {
   background: #edeff5;
   padding: 20px;
+  font-family: 'Rudiment';
+  font-size: 15px;
 }
 
 @font-face {
