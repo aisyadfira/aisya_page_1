@@ -2647,6 +2647,7 @@ p {
 
 .text-block-3 {
   color: #810000;
+  letter-spacing: .1rem;
   text-align: center;
   text-transform: none;
   margin-left: auto;
